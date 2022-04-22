@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.background {
+    /* color: red; */
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #0f0f0f;
+    margin: 60px 250px;
+}
+
+.header {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 10px solid cadetblue;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin: -30px 10px 20px 10px;
+    font-size: 20px;
+}
+
+body form, body .information {
+    padding: 50px 150px;
+}
+
+body form .base {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.row1 {
+    flex-direction: column;
+}
+
+form h1, .information h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+p, label {
+    margin-bottom: 15px;
+    font-family: monospace;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: start;
+    border: 2px solid black;
+}
+
+.row1 input {
+    width: 150px;
+    margin-right: 11px;
+}
+
+.row2 input, .row4 input {
+    width: 525px;
+}
+
+.row3 select, .row3 input {
+    width: 162px;
+    margin-right: 10px;
+}
+
+.row5 div{
+    margin-right: 100px;
+}
+
+.row6 div{
+    width: 200px;
+    margin-right: 65px;
+}
+
+.row6 select {
+    width: 170px;
+}
+
+.row7 input {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.row8 input {
+    margin-right: 5px;
+}
+
+.btn {
+    text-align: end;
+}
+
+.btn input {
+    background-color: transparent;
+    width: 100px;
+    text-align: center;
+    margin: 30px 20px 10px 20px;
+}
+
+.btn input:hover {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+
+/* Page 2 */
+.information > * {
+    font-family: monospace;
+}
+
+.information h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.picture img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid cadetblue;
+    border-radius: 50%;
+}
+
+.fullinfo {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.fullinfo h5 {
+    font-size: 15px;
+}
+
+.return {
+    text-align: end;
+    font-size: 15px;
+}
+
+.return a {
+    color: cadetblue;
+}
+
+.return a:hover {
+    color: #0f0f0f;
+}
